@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\dev\\teximal\\src\\Teximal.csproj": {}
+    "C:\\dev\\teximal\\src\\Teximal.csproj": {}
   },
   "projects": {
-    "c:\\dev\\teximal\\src\\Teximal.csproj": {
+    "C:\\dev\\teximal\\src\\Teximal.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\dev\\teximal\\src\\Teximal.csproj",
+        "projectUniqueName": "C:\\dev\\teximal\\src\\Teximal.csproj",
         "projectName": "Teximal",
-        "projectPath": "c:\\dev\\teximal\\src\\Teximal.csproj",
+        "projectPath": "C:\\dev\\teximal\\src\\Teximal.csproj",
         "packagesPath": "C:\\Users\\chris\\.nuget\\packages\\",
-        "outputPath": "c:\\dev\\teximal\\src\\obj\\",
+        "outputPath": "C:\\dev\\teximal\\src\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\chris\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -39,6 +39,12 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.ML": {
+              "target": "Package",
+              "version": "[1.7.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

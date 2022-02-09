@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "Teximal": {
+      "commandName": "Project",
+      "workingDirectory": ".."
+    }
+  }
+}
